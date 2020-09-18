@@ -1,0 +1,57 @@
+<!-- get page to render
+// add html tags
+// add body tags
+// and script tags -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <style>
+      body {background-color: orange; text-align: center;}
+      h1   {font-family: Georgia; color: White;}
+      h2   {font-family: Arial; color: white;}
+      .container {width: 306px;
+                  margin: auto;
+                  display: grid;
+                  grid-template-columns: repeat(3, auto);}
+      .square {width: 100px;
+               height: 100px;
+               line-height: 100px;
+               font-size: 60px;
+               box-shadow: 0 0 0 2px white;
+               border: 2px solid white;
+               cursor: help;}
+      button {background-color: pink;
+              border: none;
+              color: white;
+              padding: 8px;
+              text-align: center;
+              border-radius: 5px;
+              box-shadow: 0px 0px 10px 3px white;
+              cursor: pointer;}
+     </style>
+  </head>
+  <body>
+    <h1 class="title">Tic Tac Toe</h1>
+    <h2 class="player-turn">PLAYER TURN GOES HERE</h2>
+    <div class="container">
+      <div class="square" index="0"></div>
+      <div class="square" index="1"></div>
+      <div class="square" index="2"></div>
+      <div class="square" index="3"></div>
+      <div class="square" index="4"></div>
+      <div class="square" index="5"></div>
+      <div class="square" index="6"></div>
+      <div class="square" index="7"></div>
+      <div class="square" index="8"></div>
+    </div>
+    <h2 class="result">GAME RESULT GOES HERE</h2>
+    <button class="reset">PLAY AGAIN</button>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+
